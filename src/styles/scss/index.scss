@@ -1,0 +1,118 @@
+// *******************************************************************
+// Add all project style changes and imports to this Global stylesheet
+// *******************************************************************
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    .mobile-card{
+        display: block !important;
+    }
+    .mobile-card-div{
+        padding: 0 !important;
+    }
+    .mobile-page{
+        margin-left: 17% !important;
+        margin-right: 0% !important;
+    }
+    .mobile-feat-div{
+        margin-left: -5% !important;
+        margin-right: 0% !important;
+        margin-bottom: 0% !important;
+    }
+    .mobile-feat{
+        display: block !important;
+    }
+    .mobile-feat-div{
+        justify-content: center !important;
+    }
+    .mobile-feat-head{
+        font-size: 2rem !important;
+        font-weight: 500;
+    }
+    .mobile-feat-text{
+        max-width: 90% !important;
+    }
+    .mobile-feat-img{
+        max-width: 90% !important;
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
+    }
+    .mobile-footer{
+        font-size: .75rem !important;
+        margin-bottom: -15% !important;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 1200){
+    .mobile-card{
+        display: block !important;
+    }
+    .mobile-card-div{
+        padding: 0 !important;
+    }
+    .mobile-page{
+        margin-left: 17% !important;
+        margin-right: 0% !important;
+    }
+    .mobile-feat-div{
+        margin-left: -5% !important;
+        margin-right: 0% !important;
+        margin-bottom: 0% !important;
+    }
+    .mobile-feat{
+        display: block !important;
+    }
+    .mobile-feat-head{
+        font-size: 2rem !important;
+        font-weight: 500;
+    }
+    .mobile-feat-text{
+        max-width: 90% !important;
+    }
+    .mobile-feat-img{
+        max-width: 90% !important;
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
+    }
+    .mobile-footer{
+        font-size: .75rem !important;
+        margin-bottom: -15% !important;
+    }
+}
+
+// Large devices (desktops, 1200px and up)
+@media (min-width: 1201px) {
+    .mobile-card{
+
+    }
+    .mobile-card-div{
+
+    }
+    .mobile-page{
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+    }
+    .mobile-feat-div{
+        margin-right: 15% !important;
+    }
+    .mobile-feat{
+
+    }
+    .mobile-feat-head{
+
+    }
+    .mobile-feat-text{
+
+    }
+    .mobile-feat-img{
+
+    }
+    .mobile-footer{
+
+    }
+
+}
